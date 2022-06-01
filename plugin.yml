@@ -2,7 +2,7 @@ name: BedWars-Hypixel
 version: 2.0
 api: ["4.0.0"]
 main: BedWars\BedWars
-author: boi1216
+author: ["Boi", "FaizDev"]
 
 permissions:
   bedwars.command.help:
