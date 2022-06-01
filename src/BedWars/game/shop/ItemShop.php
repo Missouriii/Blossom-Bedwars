@@ -30,45 +30,45 @@ class ItemShop
      * @var array $shopWindows
      */
     public static $shopWindows = [
-        1 => ["name" =>"Armor", "image" => ""],
-        2 => ["name" =>"Weapons", "image" => ""],
-        3 => ["name" =>"Blocks", "image" => ""],
-        4 => ["name" => "Bows", "image" => ""],
-        5 => ["name" => "Potions" ,"image" => ""],
-        6 => ["name" => "Specials", "image" => ""]
+        1 => ["name" =>"Armor", "image" => "textures/items/iron_chestplate"],
+        2 => ["name" =>"Weapons", "image" => "textures/items/iron_sword"],
+        3 => ["name" =>"Blocks", "image" => "textures/blocks/wool_colored_white"],
+        4 => ["name" => "Bows", "image" => "textures/items/bow_standby"],
+        5 => ["name" => "Potions" ,"image" => "textures/items/potion_bottle_empty"],
+        6 => ["name" => "Specials", "image" => "textures/items/ender_eye"]
     ];
 
     /**
      * @var array $shopPages
      */
     public static $shopPages = [
-        0 => ["§6Chainmal Armor\n§l§e40 IRON" => ["image" => ""],
-            "§6Iron Armor §c[PERMANENT]\n§l§e12 GOLD" => ["image" => ""],
-            "§6Diamond Armor §c[PERMANENT]\n§l§e6 EMERALD" => ["image" => ""]],
-        1 => ["§6Stone Sword\n§l§e10 IRON" => ["image" => ""],
-            "§6Iron Sword\n§l§e7 GOLD" => ["image" => ""],
-            "§6Diamond Sword\n§l§e7 EMERALD" => ["image" => ""],
-            "§6Knockback Stick\n§l§e2 EMERALD" => ["image" => ""]],
-        2 => ["§6Wool 16x\n§l§e4 IRON" => ["image" => ""],
-            "§6Sandstone 16x\n§l§e12 IRON" => ["image" => ""],
-            "§6Endstone 12x\n§l§e24 IRON" => ["image" => ""],
-            "§6Ladder 16x\n§l§e4 IRON" => ["image" => ""],
-            "§6Oak Wood 16x\n§l§e4 GOLD" => ["image" => ""],
-            "§6Obsidian 4x\n§l§e4 EMERALD" => ["image" => ""]],
-        3 => ["§6Normal Bow\n§l§e12 GOLD" => ["image" => ""],
-            "§6Bow §b(Power 1)\n§l§e24 GOLD" => ["image" => ""],
-            "§6Bow §b(Power 1, Punch 1)\n§l§e6 EMERALD" => ["image" => ""]],
-        4 => ["§6Speed II Potion (45 sec.)\n§l§e1 EMERALD" => ["image" => ""],
-            "§6Jump V Potion (45 sec.)\n§l§e1 EMERALD" => [""],
-            "§6Invisibility Potion (30 sec.)\n§l§e1 EMERALD" => [""]],
-        5 => ["§6Golden Apple\n§l§e3 GOLD" => ["image" => ""],
-            "§6Bedbug\n§l§e50 IRON" => ["image" => ""],
-            "§6Fireball\n§l§e50 IRON" => ["image" => ""],
-            "§6TNT\n§l§e8 GOLD" => ["image" => ""],
-            "§6Enderpearl\n§l§e4 EMERALD" => ["image" => ""],
-            "§6Water Bucker\n§l§e1 EMERALD" => ["image" => ""],
-            "§6Bridge Egg\n§l§e4 EMERALD" => ["image" => ""],
-            "§6Compact Popup-Tower\n§l§e24 IRON" => ["image" => ""]
+        0 => ["§6Chainmal Armor\n§l§e40 IRON" => ["image" => "textures/items/chainmail_chestplate"],
+            "§6Iron Armor §c[PERMANENT]\n§l§e12 GOLD" => ["image" => "textures/items/iron_chestplate"],
+            "§6Diamond Armor §c[PERMANENT]\n§l§e6 EMERALD" => ["image" => "textures/items/diamond_chestplate"]],
+        1 => ["§6Stone Sword\n§l§e10 IRON" => ["image" => "textures/items/stone_sword"],
+            "§6Iron Sword\n§l§e7 GOLD" => ["image" => "textures/items/iron_sword"],
+            "§6Diamond Sword\n§l§e7 EMERALD" => ["image" => "textures/items/diamond_sword"],
+            "§6Knockback Stick\n§l§e2 EMERALD" => ["image" => "textures/items/stick"]],
+        2 => ["§6Wool 16x\n§l§e4 IRON" => ["image" => "textures/blocks/wool_colored_white"],
+            "§6Sandstone 16x\n§l§e12 IRON" => ["image" => "textures/blocks/sandstone_normal"],
+            "§6Endstone 12x\n§l§e24 IRON" => ["image" => "textures/blocks/end_stone"],
+            "§6Ladder 16x\n§l§e4 IRON" => ["image" => "textures/blocks/ladder"],
+            "§6Oak Wood 16x\n§l§e4 GOLD" => ["image" => "textures/blocks/planks_oak"],
+            "§6Obsidian 4x\n§l§e4 EMERALD" => ["image" => "textures/blocks/obsidian"]],
+        3 => ["§6Normal Bow\n§l§e12 GOLD" => ["image" => "textures/items/bow_standby"],
+            "§6Bow §b(Power 1)\n§l§e24 GOLD" => ["image" => "textures/items/bow_standby"],
+            "§6Bow §b(Power 1, Punch 1)\n§l§e6 EMERALD" => ["image" => "textures/items/bow_standby"]],
+        4 => ["§6Speed II Potion (45 sec.)\n§l§e1 EMERALD" => ["image" => "textures/items/potion_bottle_moveSpeed"],
+            "§6Jump V Potion (45 sec.)\n§l§e1 EMERALD" => ["textures/items/potion_bottle_jump"],
+            "§6Invisibility Potion (30 sec.)\n§l§e1 EMERALD" => ["textures/items/potion_bottle_invisibility"]],
+        5 => ["§6Golden Apple\n§l§e3 GOLD" => ["image" => "textures/items/apple_golden"],
+            "§6Bedbug\n§l§e50 IRON" => ["image" => "textures/items/snowball"],
+            "§6Fireball\n§l§e50 IRON" => ["image" => "textures/items/fireball"],
+            "§6TNT\n§l§e8 GOLD" => ["image" => "textures/blocks/tnt_side"],
+            "§6Enderpearl\n§l§e4 EMERALD" => ["image" => "textures/items/ender_pearl"],
+            "§6Water Bucker\n§l§e1 EMERALD" => ["image" => "textures/items/bucket_water"],
+            "§6Bridge Egg\n§l§e4 EMERALD" => ["image" => "textures/items/egg"],
+            "§6Compact Popup-Tower\n§l§e24 IRON" => ["image" => "textures/block/chest_front"]
         ],
     ];
 
@@ -105,7 +105,7 @@ class ItemShop
             2 => ["name" => "Fireball", "type" => self::PURCHASE_TYPE_IRON, "amount" => 1, "price" => 50, "item" => ["id" => ItemIds::FIRE_CHARGE, "damage" => 0]],
             3 => ["name" => "TNT", "type" => self::PURCHASE_TYPE_GOLD, "amount" => 1, "price" => 8, "item" => ["id" => ItemIds::TNT, "damage" => 0]],
             4 => ["name" => "Enderpearl", "type" => self::PURCHASE_TYPE_EMERALD, "amount" => 1, "price" => 4, "item" => ["id" => ItemIds::ENDER_PEARL, "damage" => 0]],
-            5 => ["name" => "Water Bucket", "type" => self::PURCHASE_TYPE_EMERALD, "amount" => 1, "price" => 1, "item" => ["id" => 325, "damage" => 8]],
+            5 => ["name" => "Water Bucket", "type" => self::PURCHASE_TYPE_EMERALD, "amount" => 1, "price" => 1, "item" => ["id" => 326, "damage" => 8]],
             6 => ["name" => "Bridge Egg", "type" => self::PURCHASE_TYPE_EMERALD, "amount" => 1, "price" => 4, "item" => ["id" => ItemIds::EGG, "damage" => 0, 'custom_name' => "§6Bridge Egg"]],
             7 => ["name" => "Compact Popup-Tower", "type" => self::PURCHASE_TYPE_IRON, "amount" => 1, "price" => 24, "item" => ["id" => ItemIds::CHEST, "damage" => 0, "custom_name" => "§bPopup Tower"]]
         ]

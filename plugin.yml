@@ -1,6 +1,6 @@
-name: BedWarsUltimate
-version: "2.0pre-release"
-api: 4.0.0
+name: BedWars-Hypixel
+version: 2.0
+api: ["4.0.0"]
 main: BedWars\BedWars
 author: boi1216
 
