@@ -21,8 +21,8 @@ class Utils
         TextFormat::WHITE => 0,
         TextFormat::AQUA => 3,
         TextFormat::DARK_BLUE => 11,
-	    TextFormat::LIGHT_PURPLE => 6,
-	    TextFormat::GRAY => 7
+	TextFormat::LIGHT_PURPLE => 6,
+	TextFormat::GRAY => 7
     ];
 
     public static function colorIntoWool(string $color) : int{
@@ -42,7 +42,7 @@ class Utils
             '§b' => 3,
             '§1' => 11,
             '§d' => 6,
-	        '§7' => 7
+	    '§7' => 7
         ];
 
         return array_search($woolDamage, self::WOOL_COLOR);
