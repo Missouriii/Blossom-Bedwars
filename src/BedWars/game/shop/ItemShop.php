@@ -57,7 +57,7 @@ class ItemShop
             "§6Obsidian 4x\n§l§e4 EMERALD" => ["image" => "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/99/Obsidian_JE3_BE2.png/revision/latest?cb=20200124042057"]],
         3 => ["§6Normal Bow\n§l§e12 GOLD" => ["image" => "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0f/Bow_%28MCD%29.png/revision/latest?cb=20200411164518"],
             "§6Bow §b(Power 1)\n§l§e24 GOLD" => ["image" => "https://static.wikia.nocookie.net/minecraft/images/6/6b/EnchantedBow.gif/revision/latest/smart/width/300/height/300?cb=20200117003024"],
-            "§6Bow §b(Power 1, Punch 1)\n§l§e6 EMERALD" => ["image" => "https://static.wikia.nocookie.net/minecraft/images/6/6b/EnchantedBow.gif/revision/latest/smart/width/300/height/300?cb=20200117003024"]],
+            "§6Bow §b(Power 1, Punch 1)\n§l§e6 EMERALD" => ["image" => "https://static.wikia.nocookie.net/minecraft/images/6/6b/EnchantedBow.gif/revision/latest/smart/width/300/height/300?cb=20200117003024"],
             "§6Arrow 16x\n§l§e4 GOLD" => ["image" => "https://pngset.com/images/arrow-minecraft-wiki-fandom-minecraft-arrow-symbol-cross-transparent-png-2488006.png"]],
         4 => ["§6Speed II Potion (45 sec.)\n§l§e1 EMERALD" => ["image" => "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2c/Uncraftable_Potion_JE2.png/revision/latest?cb=20191027040943"],
             "§6Jump V Potion (45 sec.)\n§l§e1 EMERALD" => ["https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Potion_of_Leaping_JE1_BE1.png/revision/latest?cb=20200108004444"],
